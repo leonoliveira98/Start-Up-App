@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
 
         // Get spinner with options for the user to select
-        val spinnerValues: Array<String> = arrayOf("Sr.", "Sra.")
+        val spinnerValues = arrayOf("Miss", "Mrs", "Ms", "Mr")
 
         val spinnerAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, spinnerValues)
         spinner_title.adapter = spinnerAdapter
@@ -28,15 +28,13 @@ class MainActivity : AppCompatActivity() {
     private fun onRegisterClicked() {
 
         val data = Data (
-            spinner_title.selectedItem?.toString(),
+            spinner_title.selectedItem as String,
             edit_text_first_name.text.toString(),
             edit_text_last_name.text.toString(),
             edit_text_email.text.toString(),
             edit_text_phone.text.toString(),
             edit_text_password.text.toString(),
         )
-
-
 
         val goDataActivity = Intent(this, DataActivity::class.java)
         goDataActivity.putExtra("Data", data)
