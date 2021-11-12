@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Register Form"
+            android:text="@string/register_form"
             android:textColor="#673AB7"
             android:textSize="32sp" />
 
@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Please enter details to register"
+            android:text="@string/please_enter_details_to_register"
             android:textSize="16sp" />
 
         <Spinner
@@ -37,7 +37,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="First Name">
+            android:hint="@string/hint_first_name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_text_first_name"
@@ -52,7 +52,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Last Name">
+            android:hint="@string/hint_last_name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_text_last_name"
@@ -67,7 +67,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email">
+            android:hint="@string/hint_email">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_text_email"
@@ -82,7 +82,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Phone Number">
+            android:hint="@string/hint_phone_number">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_text_phone"
@@ -97,7 +97,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password">
+            android:hint="@string/hint_password">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_text_password"
@@ -116,7 +116,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Register" />
+            android:text="@string/button_register" />
 
 
     </LinearLayout>

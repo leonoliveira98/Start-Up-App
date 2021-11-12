@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Start-Up App</string>
+    <string name="register_form">Register Form</string>
+    <string name="please_enter_details_to_register">Please enter details to register</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="button_register">Register</string>
 </resources>
