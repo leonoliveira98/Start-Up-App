@@ -25,7 +25,7 @@ class DataActivity : AppCompatActivity() {
 
     private fun displayUser() {
 
-        text_view_title.text = data.getFullName().toString()
+        text_view_title.text = data.getFullName()
         text_view_email.text = "Email: ${data.email}"
         text_view_phone_number.text = "Phone Number: +351 ${data.phoneNumber}"
         text_view_password.text = "Password: ${data.password}"

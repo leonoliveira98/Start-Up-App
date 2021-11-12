@@ -13,8 +13,8 @@ data class Data(
 
 ) : Serializable {
 
-    fun getFullName(){
-        "$title $firstName $lastName"
+    fun getFullName():String{
+        return "$title $firstName $lastName"
     }
 
 }
