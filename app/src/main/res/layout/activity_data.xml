@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="40dp">
+    android:padding="40dp"
+    android:background="@drawable/gradient_background">
 
 
     <androidx.cardview.widget.CardView
